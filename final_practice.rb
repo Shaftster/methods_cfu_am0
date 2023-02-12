@@ -5,12 +5,22 @@
 
 
 # 1: Write a method named greeting that returns a string with a general greeting. 
-
+def greet_a_new_customer
+    return "Thanks for being a new customer"
+end
 # What is the return value of your method?
+
+    # 'Thanks for being a new customer
 # How many arguments did you pass your method?
 
 
 # 2: Write a method named custom_greeting that returns a greeting WITH a specific name.
+new_friend = ("name")
+def greet_a_new_friend (name)
+    return 'pleasure to meet you #{name}'
+end
+
+p greet_a_new_friend "john"
 
 # What is the return value of your method?
 # How many arguments did you pass your method?
@@ -35,14 +45,14 @@
 # 5: Write a method named check_stock that satisfies the following interaction pattern:
 # Hint: You will only write one check_stock method that checks the quantity and then prints the corresponding statement.
 
-check_stock(4, "Coffee");
+# check_stock(4, "Coffee");
 # => "Coffee is stocked"
 
-check_stock(3, "Tortillas");
+# check_stock(3, "Tortillas");
 # => "Tortillas - running LOW"
 
-check_stock(0, "Cheese");
+# check_stock(0, "Cheese");
 # => "Cheese - OUT of stock!"
 
-check_stock(1, "Salsa");
+# check_stock(1, "Salsa");
 # => "Salsa - running LOW"
